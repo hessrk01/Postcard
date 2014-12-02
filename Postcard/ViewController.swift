@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         enterNameTextField.text = ""
         //remove keyboard after pressing send mail
         enterNameTextField.resignFirstResponder()
+        
+        //change message to red
         messageLabel.textColor = UIColor.redColor()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
